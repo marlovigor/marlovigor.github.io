@@ -2913,7 +2913,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url("https://images.pond5.com/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg");
+			background-image: url('/images/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg');
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -2946,7 +2946,7 @@
 					-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 					transition: opacity 1.5s ease-in-out, visibility 1.5s;
 					content: '';
-					background-image: url("https://images.pond5.com/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg");
+					background-image: url('/images/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg');
 					background-attachment: fixed;
 					background-position: center;
 					background-repeat: no-repeat;
@@ -2989,7 +2989,7 @@
 			#header > .logo span {
 				font-weight: 300;
 				font-size: 2rem;
-				padding
+				padding:15;
 				display: block;
 				color: rgba(255, 255, 255, 0.65);
 			}
@@ -3174,6 +3174,19 @@
 			}
 			.icons{
 				width:10%;
+			}
+			.contact{
+				background-color:rgb(37, 37, 37);
+				width:100%;
+				margin:0 auto;
+				height: 50px;
+				
+
+				
+			}
+			.contactli{
+				color:white;
+				font-size: 2.3vw
 			}
 	
 		}
